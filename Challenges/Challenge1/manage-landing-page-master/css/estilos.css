@@ -195,7 +195,21 @@ body {
 	background-color: white;
 	color: var(--color-naranja);
 }
+.footer__email{
+border-radius: 10px;
+}
 
+.footer__boton{
+	background-color: var(--color-naranja);
+	color: white;
+	height: 2rem;
+	width: 3rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1rem;
+}
 @media screen and (max-width: 1440px) {
 	.header,
 	.main,
