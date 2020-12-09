@@ -6,7 +6,7 @@
 
 body{
     background-color: #444;
-    color: white;
+    
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -39,4 +39,19 @@ h2{
 .tareas__link:hover{
     font-size: 1.2rem;
     transition: 0.2s all ease-in;
+}
+header{
+    color: white;
+    
+}
+.tarjeta{
+    cursor: pointer;
+}
+.tarjeta:hover{
+    transform: scale(1.01);
+}
+.mi-menu{
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
